@@ -16,7 +16,7 @@ import shutil
 # ============================================
 # 🔐 إعدادات الأمان والبيئة
 # ============================================
-BOT_TOKEN = "8833086519:AAFEZw7FPHJ6iJZc5tisB313iUO6jjjkWXU"
+BOT_TOKEN = "8833086519:AAEuOTGa_kXutW8NpJufTaw2VPi0znS2ocM"
 OWNER_ID = 8539408138
 OWNER_USERNAME = "Mkdkdkd8484849"
 
