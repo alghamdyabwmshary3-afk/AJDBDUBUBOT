@@ -1,0 +1,1 @@
+- [Telegram bot import quirk](telegram-bot-readme-source.md) — original repo stored the actual Python bot source inside README.md with a hardcoded token; watch for this pattern on GitHub imports.
