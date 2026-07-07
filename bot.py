@@ -1469,4 +1469,10 @@ print("👑 نظام المستويات: Ranks حسب التحميلات")
 print("🔒 الخصوصية: جميع المصادر مخفية تماماً")
 print("=" * 60)
 
-bot.infinity_polling(allowed_updates=["message", "callback_query", "my_chat_member", "channel_post"])
+while True:
+    try:
+        bot.infinity_polling(allowed_updates=["message", "callback_query", "my_chat_member", "channel_post"], timeout=60, long_polling_timeout=60)
+    except Exception as e:
+        print(f"⚠️ خطأ في الاتصال: {e}")
+        print("⏳ إعادة المحاولة خلال 15 ثانية...")
+        time.sleep(15)
