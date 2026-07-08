@@ -16,7 +16,7 @@ import shutil
 # ============================================
 # 🔐 إعدادات الأمان والبيئة
 # ============================================
-BOT_TOKEN = os.environ["8613467725:AAFlRihb4os0QZ2ddbUZghh333CEkVBwdO8"]
+BOT_TOKEN = os.environ["BOT_TOKEN"]
 OWNER_ID = int(os.environ.get("OWNER_ID", "8539408138"))
 OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "Mkdkdkd8484849")
 
